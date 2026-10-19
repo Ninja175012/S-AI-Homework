@@ -1,0 +1,12 @@
+The Missing Project Credentials
+
+https://my.newtonschool.co/playground/code/7x83ezx6nimm
+
+#!/bin/bash
+cd EventApp
+ls -la
+find . -type f -print
+grep -R -h '^DB_PASSWORD=' --include='.*' --include='*.env' --include='*' . \
+    --exclude='db_password.txt' | head -n 1 > db_password.txt
+
+use find to find the location of password and use grep to copy the content and send it to a new file named db_password in EventApp
