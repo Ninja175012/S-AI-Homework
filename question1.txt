@@ -1,0 +1,16 @@
+Advanced File Management
+
+https://my.newtonschool.co/playground/code/4ks5o139cfoh?lecture_hash=v210chxjexei
+
+mkdir project-files
+cd project-files
+touch report.docx summary.docx draft.docx
+cp report.docx report_backup.docx
+mkdir old
+cd project-files
+mv draft.docx old/
+mv summary.docx final_summary.docx
+cp final_summary.docx old/
+rm report_backup.docx
+
+The approach is to use basic bash commands like mkdir, touch, cp, mv and rm to solve this Question
