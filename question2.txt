@@ -1,0 +1,20 @@
+Create a Project Folder Structure
+
+https://my.newtonschool.co/playground/code/jipp2htnvrww?lecture_hash=v210chxjexei
+
+which create-service
+chmod +x "$(which create-service)"
+cat "$(which create-service)"
+cat > ./create-service <<'EOF'
+#!/bin/bash
+mkdir -p service/controllers
+mkdir -p service/models
+mkdir -p service/routes
+mkdir -p service/middleware
+touch service/server.js
+echo "# Service" > service/README.md
+EOF
+chmod +x ./create-service
+./create-service
+
+We need to give execution permission for owner on create-service then inspect the script and fix the mistakes
