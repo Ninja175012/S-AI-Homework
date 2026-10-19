@@ -1,0 +1,16 @@
+API-Service Directory Workflow
+
+https://my.newtonschool.co/playground/code/5ypni48t3pzs
+
+cd api-service
+git init
+git add README.md
+git commit -m "Add documentation"
+git add server.js
+git add routes.js
+git add package.json
+git commit -m "Add server files"
+git status
+git log
+
+Use git init to intialize then git add to stage and git commit -m to commit
