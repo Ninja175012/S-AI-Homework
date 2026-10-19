@@ -1,0 +1,16 @@
+The Internship Project Setup
+
+https://my.newtonschool.co/playground/code/5i36axzh7cl2?lecture_hash=mi7y4g3am46y
+
+cd client-app
+git init
+echo "y>>>>>>x+z" > index.html
+echo "y>>>>>>x+z" > app.js
+git add index.html
+git add app.js
+git commit -m "Initial client files"
+git remote add origin https://github.com/startup/client-app.git
+git push -u origin main
+git log
+
+Use git init to intialize echo to add text into files git add to stage git commit to commit git remote add origin url to connect to repository  git push -u origin main to push for the first time and git log 
