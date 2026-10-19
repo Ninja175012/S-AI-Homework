@@ -1,0 +1,12 @@
+Execute a Python Script Directly
+
+https://my.newtonschool.co/playground/code/mepmefz373b4?lecture_hash=t5qc0u6ap8tg
+
+cat > hello.py << 'EOF'
+#!/usr/bin/env python3
+print("Hello from Python")
+EOF
+chmod +x hello.py
+./hello.py
+
+Use shebang to use python3 and print to use a function which executes as it does in python and chmod to give execution permission and ./hello.py to execute it
