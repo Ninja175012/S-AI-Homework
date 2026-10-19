@@ -1,0 +1,11 @@
+Deployment Project Permissions
+
+https://my.newtonschool.co/playground/code/3wz3wv7c89fo?lecture_hash=vifkrugjcwth
+
+chmod 700 deployment/app/*.py
+chmod 770 deployment/datasets
+chmod 770 deployment/datasets/*
+chmod 644 deployment/docs/OVERVIEW.md
+chmod 755 deployment/bin/*.sh
+
+Change all the permissions of the files listed in the question using chmod
